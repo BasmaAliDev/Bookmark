@@ -1,0 +1,44 @@
+.contant,.content2
+{
+    background-color:#EEE;
+}
+h2,h6
+{
+    color: gray;
+}
+h3{
+    font-weight: 800;
+    font-size: 1.5em;
+}
+p,label
+{
+    font-weight: 600;
+    color: #333;
+}
+p{
+    font-size: 1.5rem;
+}
+.contant::after
+{
+    content: " ";
+    width: 100%;
+    height: 0.1vh;
+    background-color:gray;
+    position: absolute;
+    top:8vh;
+    left:0% ;
+}
+.container
+{
+    position: relative;
+} 
+h6::before
+{
+    content: " ";
+    width: 100%;
+    height: 0.1vh;
+    background-color: gray;
+    position: absolute;
+    bottom:10vh;
+    left: 0;
+}
